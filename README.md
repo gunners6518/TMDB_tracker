@@ -1,3 +1,17 @@
+# ディレクトリ構成
+## App.js 
+親コンポーネント。
+APIリクエストを処理する関数も含まれ、コンポーネントの初期レンダリング中にAPIを呼び出す関数が含まれます。
+
+## Header.js 
+アプリのヘッダーをレンダリングし、タイトルプロップを受け入れるシンプルなコンポーネント
+
+## Movie.js 
+各ムービーをレンダリングします。ムービーオブジェクトは、propsして単純に渡されます。
+
+## Search.js 
+入力要素と検索ボタンを含むフォームが含まれ、入力要素を処理してフィールドをリセットする関数が含まれ、propsとして渡される検索関数を呼び出す関数も含まれます。
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
